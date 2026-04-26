@@ -1,0 +1,26 @@
+# Web Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+
+# Database
+SQLAlchemy==2.0.23
+aiomysql==0.2.0
+PyMySQL==1.1.0
+
+# Cache
+redis==5.0.1
+
+# Data Validation
+pydantic==2.5.2
+pydantic-settings==2.1.0
+
+# Security
+passlib[bcrypt]==1.7.4
+bcrypt==4.1.2
+
+# Utilities
+python-multipart==0.0.6
+python-jose[cryptography]==3.3.0
+
+# Development Tools
+python-dotenv==1.0.0
